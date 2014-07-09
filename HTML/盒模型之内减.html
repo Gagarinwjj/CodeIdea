@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>JS Bin</title>
+    <style type="text/css" media="screen">
+    .p1 {
+        width:400px;
+        height:410px;
+        background-color:red;
+        padding-top:100px;
+        box-sizing:border-box;/*如果不加,全部外扩,element固定为400*410;加了后,margin总是外扩,但是broder,padding内减*/
+        border:5px solid orange;/*element 390*300 */
+        margin-left: 20px;
+        position: relative;
+    }
+    .p2 {
+    	/*position: absolute;*//*如果是absolute，则百分比参考父元素的padding域,而不是内减之后的element域，则height: 400*50%=200*/
+        background-color: #ccc;
+        border-left: 30px solid #88f;
+        height: 50%;/*relateive,static 百分比参考父元素的element域,height=300*50%=150*/
+        /*width:50%;*//*如果指定则element尺寸固定，由于没有box-sizing:border-box,此时margin、border、padding均外扩*/
+        margin-left: 10px;
+        padding-left: 10px;/*如果没有指定元素的width,则用100%宽度内减margin、border、padding，剩余的即为element,所以元素的width=390-10-30-10=340*/
+    }
+    .p3 {
+        background-color: #0f0;
+        border-left:5px solid #0bb;
+        height:50%;/*height:300*50%=150 width:395-5=390;*/
+    }
+    </style>
+</head>
+
+<body>
+    <div class="p1">element:395*300
+        <div class="p2">element:340*150</div>
+        <div class="p3">element:390*150</div>
+    </div>
+</body>
+
+</html>
