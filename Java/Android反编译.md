@@ -12,6 +12,8 @@ google官方工具，可以反编译出资源文件，亦可打包编译出的�
 
 1. Androidfby
 2. 反编译工具包
+
+
 ##二、工具
 1. Androidfby： 图形化反编译APK（签过名的无法反编译）
 2. [apktool1.5.2](https://code.google.com/p/android-apktool/ "google code site")： google官方工具，可以反编译出资源文件，亦可打包编译出的资源文件，可用于汉化，常用。
