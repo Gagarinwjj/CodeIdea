@@ -7,7 +7,7 @@ SQL中字符数据存储
 	SELECT LEN(@name)--2
 	SELECT DATALENGTH(@name)--10
 	```
-	
+
 - ###`nchar(n)` 定长，`Unicode字符` n范围：[1,4000]，小于补空，大于截取
 	```sql
 	DECLARE @name NCHAR(10)
