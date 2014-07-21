@@ -1,6 +1,6 @@
 SQL中字符数据存储
 ===
-- ###`char(n)` 定长，`非Unicode字符`，小于补空，大于截取
+- ###`char(n)` 定长，`非Unicode字符`，小于补空，大于截取	
 	```sql
 	DECLARE @name CHAR(10)
 	SELECT @name='我a'
