@@ -80,6 +80,7 @@ WHILE @i <= 20000
 
 SET IDENTITY_INSERT TestTable OFF
 ```
+---
 
 ## 1.分页方案一：(利用Not In和SELECT TOP分页)
 
@@ -164,8 +165,7 @@ AS
 EXEC SqlPager 'select * from paypoints order by id desc', 1, 3
 ```
 >参考：[sp_cursorfetch (Transact-SQL)](http://technet.microsoft.com/zh-cn/ff848736)
-
->`其它的方案`：如果没有主键，可以用临时表，也可以用方案三做，但是效率会低。
+>其它的方案：如果没有主键，可以用临时表，也可以用方案三做，但是效率会低。
 >建议优化的时候，加上主键和索引，查询效率会提高。
 
 ##4.通过SQL 查询分析器，显示比较：我的结论是:
