@@ -40,7 +40,10 @@ namespace Wedo.BusInfo.WebUI.Controls
                     graphics.DrawLine(new Pen(Color.Black), num2, num4, num3, num5);
                 }
                 Font font = new Font("Arial", 12f, FontStyle.Italic | FontStyle.Bold);
-                LinearGradientBrush brush = new LinearGradientBrush(new Rectangle(0, 0, image.Width, image.Height), Color.Blue, Color.DarkRed, 1.2f, true);
+                LinearGradientBrush brush = new LinearGradientBrush(
+                new Rectangle(0, 0, image.Width, image.Height), 
+                Color.Blue, Color.DarkRed, 1.2f, true
+                );
                 graphics.DrawString(ValidateCode, font, brush, (float)2f, (float)2f);
                 for (int j = 0; j < 100; j++)
                 {
