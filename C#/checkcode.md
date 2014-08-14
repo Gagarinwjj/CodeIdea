@@ -87,4 +87,9 @@ namespace Wedo.BusInfo.WebUI.Controls
 ```
 
 #Java 验证码
-[树上月博客园](http://www.cnblogs.com/chenssy/archive/2013/01/05/2846684.html 'jsp引用servlet生成的验证码')
+
+- [Java验证码](http://www.cnblogs.com/chenssy/archive/2013/01/05/2846684.html '博客园 树上月 jsp引用servlet生成的验证码')  
+
+#更多验证码
+
+- [OPEN经验库/验证码](http://www.open-open.com/lib/list/35 '真是经验库啊')
