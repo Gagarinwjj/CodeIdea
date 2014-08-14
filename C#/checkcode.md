@@ -1,6 +1,6 @@
 #ASP.NET 验证码
 
-``C#
+```C#
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -82,4 +82,4 @@ namespace Wedo.BusInfo.WebUI.Controls
     }
 
 }
-``
+```
