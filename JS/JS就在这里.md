@@ -2,7 +2,7 @@
 
 ##百度开源[UEditor](http://ueditor.baidu.com/website/index.html "调试工具查看源码")
 
-1. 封装的工具包`utils.js`
+- 封装的工具包`utils.js`  
 ```javascript
 var util = function () {
     return {
@@ -149,8 +149,7 @@ var util = function () {
 }();
 ```
 
-2. 工具包使用`effect.js`
-
+- 工具包使用`effect.js`
 ```javascript
 /**
  * Created by JetBrains PhpStorm.
@@ -496,8 +495,7 @@ function switchTab(obj) {
 
 ##有道学堂[有道词典•看天下](http://xue.youdao.com/zx/ '有道词典•看天下')
 
-1. 判断手机类型`mobile.js`
-
+- 判断手机类型`mobile.js`
 ```javascript
 var isMobile = {
     Android: function() {
@@ -520,8 +518,8 @@ var isMobile = {
     }
 };
 ```
-2. cookie判断`referer.js`
 
+- cookie判断`referer.js`
 ```javascript
 function getQueryString(name) {
     var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
@@ -552,7 +550,8 @@ function getCookies(prefix) {
     return ""
 }
 ```
-3. Ajax请求`wti_like_post.js`
+
+- Ajax请求`wti_like_post.js`
 ```javascript
 jQuery(document).ready(function(){
      jQuery(".like img, .unlike img").click(function(){
