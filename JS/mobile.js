@@ -1,4 +1,3 @@
-```javascript
 var isMobile = {
     Android: function() {
         return navigator.userAgent.match(/Android/i);
@@ -19,4 +18,4 @@ var isMobile = {
         return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
     }
 };
-```
+
