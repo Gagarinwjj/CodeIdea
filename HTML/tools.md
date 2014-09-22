@@ -1,0 +1,26 @@
+## 前端在线调试
+http://runjs.cn/code
+http://codepen.io/pen/
+http://jsfiddle.net/
+
+## HTML -> JADE
+http://html2jade.org/
+
+## HTML -> MarkDown
+http://higrid.net/c-html2md.htm
+
+## MarkDown -> HTML
+http://tool.oschina.net/markdown
+http://tools.dedecms.com/markdown.html
+
+## PNG压缩(非在线)
+http://pngquant.org/
+
+##  Encrypt
+http://tool.oschina.net/encrypt
+
+## JavaScript 美化/压缩
+http://tool.lu/js/
+
+## CSS 美化/压缩
+http://tool.lu/css/
